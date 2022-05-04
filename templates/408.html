@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TAF by HCL | 408 Request timed out </title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/jpg" href="{{ url_for('static', filename='favicon-96x96.png') }}"/>
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='errorpage.css') }}">
+</head>
+<body>
+<div id="main">
+  <div class="fof">
+        <h1>Error 408</h1>
+        <h3>Request timed out !</h3>
+        <h5>We are sorry, but this webpage is taking too much time to respond.
+          Meanwhile, you may <a href="{{url_for('index')}}">return to Homepage.</a></h5>
+          <h5>If you think this is an error,contact to <a href = "mailto:abc@example.com">Admin</a></h5>
+  </div>
+</div>
+<!-- jQuery -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../../dist/js/demo.js"></script>
+</body>
+</html>
